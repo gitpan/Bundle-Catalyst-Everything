@@ -2,7 +2,7 @@ package Bundle::Catalyst::Everything;
 
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.03';
 
 =head1 NAME
 
@@ -30,6 +30,10 @@ Catalyst::Plugin::FormValidator
 
 Catalyst::Plugin::I18N
 
+Catalyst::Plugin::Pluggable
+
+Catalyst::Plugin::Prototype
+
 Catalyst::Plugin::Session::FastMmap
 
 Catalyst::Plugin::Static
@@ -45,6 +49,10 @@ Catalyst::View::REST::XML
 Catalyst::View::REST::YAML
 
 Catalyst::View::TT
+
+Catalyst::View::Mason
+
+Test::WWW::Mechanize::Catalyst
 
 =head1 AUTHOR
 
